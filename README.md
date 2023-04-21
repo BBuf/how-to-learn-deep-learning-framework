@@ -82,3 +82,4 @@
 - [郑建华 OneFlow源码解析：自动微分机制](https://zhuanlan.zhihu.com/p/587951710)
 - [刘耀辉 适配PyTorch FX，OneFlow让量化感知训练更简单](https://zhuanlan.zhihu.com/p/611910798)
 - [郑建华 OneFlow源码解析：Eager模式下的设备管理与并发执行](https://zhuanlan.zhihu.com/p/617870143)
+- [郑建华 OneFlow源码解析：Eager模式下Tensor的存储管理](https://zhuanlan.zhihu.com/p/623680595)
