@@ -1,5 +1,6 @@
 ## how-to-learn-deep-learning-framework
 
+> 我也维护了一个cuda学习仓库 https://github.com/BBuf/how-to-optim-algorithm-in-cuda 以及一个如何学习深度学习编译器（TVM/MLIR/LLVM）的学习仓库 https://github.com/BBuf/tvm_mlir_learn , 有需要的小伙伴可以**点一点star**
 
 ### PyTorch
 
@@ -25,11 +26,13 @@
 - [TorchScript 解读（三）：jit 中的 subgraph rewriter](https://zhuanlan.zhihu.com/p/493955209)
 - [TorchScript 解读（四）：Torch jit 中的别名分析](https://zhuanlan.zhihu.com/p/530242380)
 - [[可能99%人犯的PyTorch错误] set_seed 会破坏随机性，官方 worker_init_fn 无法解决](https://zhuanlan.zhihu.com/p/618639620)
+- [TorchDynamo 初探：Python ByteCode 的动态修改](https://zhuanlan.zhihu.com/p/589115427)
 
 ### OneFlow
 
 - [成城 OneFlow —— 让每一位算法工程师都有能力训练 GPT](https://zhuanlan.zhihu.com/p/371499074)
 - [大缺弦 Oneflow 基于重计算的动态图显存优化实践](https://mp.weixin.qq.com/s/1oBszAsvrAdPVNKD2SgCFA)
+- [许啸宇 访问者模式（Visitor Pattern）及其实现](https://zhuanlan.zhihu.com/p/586956913)
 - [黄卓彬 在 Oneflow 中开发 Gather Primitive](https://zobinhuang.github.io/sec_learning/Tech_System_And_Network/Oneflow_Gather_Primitive_Development/index.html)
 - [黄卓彬 在 Oneflow 中开发算子的基本流程 ](https://zobinhuang.github.io/sec_learning/Tech_System_And_Network/Oneflow_Operator_Development/index.html)
 - [李响 OneFlow 的 Global Tensor 学习笔记和实习总结](https://zhuanlan.zhihu.com/p/501362228)
