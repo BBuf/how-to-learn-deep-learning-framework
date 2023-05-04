@@ -27,6 +27,16 @@
 - [TorchScript 解读（四）：Torch jit 中的别名分析](https://zhuanlan.zhihu.com/p/530242380)
 - [[可能99%人犯的PyTorch错误] set_seed 会破坏随机性，官方 worker_init_fn 无法解决](https://zhuanlan.zhihu.com/p/618639620)
 - [TorchDynamo 初探：Python ByteCode 的动态修改](https://zhuanlan.zhihu.com/p/589115427)
+- [PyTorch 2.0 Dynamo 字节码详解！自顶向下，由浅入深](https://zhuanlan.zhihu.com/p/625136260)
+- [PyTorch显存分配原理——以BERT为例](https://zhuanlan.zhihu.com/p/527143823)
+- [PyTorch在CPU上的一些Performance BKM](https://zhuanlan.zhihu.com/p/79989669)
+- [PyTorch CPU性能优化（一）：Memory Format 和 Channels Last 的性能优化](https://zhuanlan.zhihu.com/p/494620090)
+- [PyTorch CPU性能优化（二）：并行化优化](https://zhuanlan.zhihu.com/p/495278415)
+- [PyTorch CPU性能优化（三）：向量化](https://zhuanlan.zhihu.com/p/499761288)
+- [PyTorch CPU性能优化（四）：BFloat16](https://zhuanlan.zhihu.com/p/499979372)
+- [GNN 在CPU上的性能优化](https://zhuanlan.zhihu.com/p/587390761)
+- [PyTorch 工程实践（一）：使用Valgrind解决内存double free的问题](https://zhuanlan.zhihu.com/p/589912194)
+- [PyTorch显存机制分析](https://zhuanlan.zhihu.com/p/424512257)
 
 ### OneFlow
 
@@ -83,3 +93,6 @@
 - [刘耀辉 适配PyTorch FX，OneFlow让量化感知训练更简单](https://zhuanlan.zhihu.com/p/611910798)
 - [郑建华 OneFlow源码解析：Eager模式下的设备管理与并发执行](https://zhuanlan.zhihu.com/p/617870143)
 - [郑建华 OneFlow源码解析：Eager模式下Tensor的存储管理](https://zhuanlan.zhihu.com/p/623680595)
+
+### Mindspore
+- [盘古大模型的推理解决方案：增量推理+分布式推理](https://zhuanlan.zhihu.com/p/393812996)
