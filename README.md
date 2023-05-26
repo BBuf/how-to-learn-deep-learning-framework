@@ -37,6 +37,7 @@
 - [GNN 在CPU上的性能优化](https://zhuanlan.zhihu.com/p/587390761)
 - [PyTorch 工程实践（一）：使用Valgrind解决内存double free的问题](https://zhuanlan.zhihu.com/p/589912194)
 - [PyTorch显存机制分析](https://zhuanlan.zhihu.com/p/424512257)
+- [pytorch 提速指南（持续更新）](https://zhuanlan.zhihu.com/p/119364172)
 
 ### OneFlow
 
