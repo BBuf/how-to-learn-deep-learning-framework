@@ -4,6 +4,7 @@
 
 ### PyTorch
 
+- [万字综述，核心开发者全面解读PyTorch内部机制](https://mp.weixin.qq.com/s/8J-vsOukt7xwWQFtwnSnWw)
 - [一文读懂 PyTorch 显存管理机制](https://zhuanlan.zhihu.com/p/486360176)
 - [一文搞懂 PyTorch 内部机制](https://zhuanlan.zhihu.com/p/338256656)
 - [PyTorch的hook及其在Grad-CAM中的应用](https://zhuanlan.zhihu.com/p/75894080)
