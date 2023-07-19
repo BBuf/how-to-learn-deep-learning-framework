@@ -96,6 +96,9 @@
 - [刘耀辉 适配PyTorch FX，OneFlow让量化感知训练更简单](https://zhuanlan.zhihu.com/p/611910798)
 - [郑建华 OneFlow源码解析：Eager模式下的设备管理与并发执行](https://zhuanlan.zhihu.com/p/617870143)
 - [郑建华 OneFlow源码解析：Eager模式下Tensor的存储管理](https://zhuanlan.zhihu.com/p/623680595)
+- [OneFlow —— OneEmbedding PersistentTable 源码阅读](https://zhuanlan.zhihu.com/p/630392764)
+- [OneFlow —— OneEmbedding FullCache源码阅读](https://zhuanlan.zhihu.com/p/633245425)
+- [OneFlow —— OneEmbedding LruCache实现解析](https://zhuanlan.zhihu.com/p/639576432)
 
 ### Mindspore
 - [盘古大模型的推理解决方案：增量推理+分布式推理](https://zhuanlan.zhihu.com/p/393812996)
