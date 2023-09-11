@@ -40,6 +40,12 @@
 - [PyTorch显存机制分析](https://zhuanlan.zhihu.com/p/424512257)
 - [pytorch 提速指南（持续更新）](https://zhuanlan.zhihu.com/p/119364172)
 - [PyTorch 2.0 编译基础设施解读——计算图捕获（Graph Capture）](https://zhuanlan.zhihu.com/p/644590863)
+- [pytorch算子的cuda实现——expand,where,softmax](https://zhuanlan.zhihu.com/p/653595064)
+- [csrc autograd的一些基础类解析](https://zhuanlan.zhihu.com/p/654967623)
+- [PyTorch Dynamo 初探2：torch fx 调研和实践](https://zhuanlan.zhihu.com/p/654834182)
+- [一文搞懂 AOTAutograd 原理](https://zhuanlan.zhihu.com/p/632879095)
+- [谁动了我的显存？——深度学习训练过程显存占用分析及优化](https://zhuanlan.zhihu.com/p/641894014)
+- [pytorch2.0目前值得更新吗?](https://www.zhihu.com/question/596483796)
 
 ### OneFlow
 
