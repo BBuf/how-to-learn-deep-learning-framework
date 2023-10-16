@@ -46,6 +46,8 @@
 - [一文搞懂 AOTAutograd 原理](https://zhuanlan.zhihu.com/p/632879095)
 - [谁动了我的显存？——深度学习训练过程显存占用分析及优化](https://zhuanlan.zhihu.com/p/641894014)
 - [pytorch2.0目前值得更新吗?](https://www.zhihu.com/question/596483796)
+- [Python字节码反编译器与PyTorch联动，PyTorch 2.0从此不难理解](https://zhuanlan.zhihu.com/p/661443056)
+- [一文打通PyTorch与JAX](https://zhuanlan.zhihu.com/p/660342914)
 
 ### OneFlow
 
