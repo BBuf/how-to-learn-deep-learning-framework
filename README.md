@@ -48,6 +48,7 @@
 - [pytorch2.0目前值得更新吗?](https://www.zhihu.com/question/596483796)
 - [Python字节码反编译器与PyTorch联动，PyTorch 2.0从此不难理解](https://zhuanlan.zhihu.com/p/661443056)
 - [一文打通PyTorch与JAX](https://zhuanlan.zhihu.com/p/660342914)
+- [PyTorch CUDA backend](https://zhuanlan.zhihu.com/p/633169168)
 
 ### OneFlow
 
