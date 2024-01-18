@@ -49,6 +49,10 @@
 - [Python字节码反编译器与PyTorch联动，PyTorch 2.0从此不难理解](https://zhuanlan.zhihu.com/p/661443056)
 - [一文打通PyTorch与JAX](https://zhuanlan.zhihu.com/p/660342914)
 - [PyTorch CUDA backend](https://zhuanlan.zhihu.com/p/633169168)
+- [一文读懂PyTorch反向传播计算图及AOTAutograd](https://zhuanlan.zhihu.com/p/669198049)
+- [如何评价pytorch 2.0？](https://www.zhihu.com/question/570221276/answer/3231177605)
+- [PyTorch 2.0 之 Dynamo: eager 模式的救星，加速背后的真相](https://zhuanlan.zhihu.com/p/592357069)
+- [PyTorch显存可视化与Snapshot数据分析](https://zhuanlan.zhihu.com/p/677203832)
 
 ### OneFlow
 
