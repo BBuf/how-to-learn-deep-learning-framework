@@ -1,6 +1,6 @@
 ## how-to-learn-deep-learning-framework
 
-> 我也维护了一个cuda学习仓库 https://github.com/BBuf/how-to-optim-algorithm-in-cuda 以及一个如何学习深度学习编译器（TVM/MLIR/LLVM）的学习仓库 https://github.com/BBuf/tvm_mlir_learn , 有需要的小伙伴可以**点一点star**
+> 我也维护了一个cuda学习仓库 https://github.com/BBuf/how-to-learn-deep-learning-framework 以及一个如何学习深度学习编译器（TVM/MLIR/LLVM）的学习仓库 https://github.com/BBuf/tvm_mlir_learn , 有需要的小伙伴可以**点一点star**
 
 ### PyTorch
 
@@ -115,3 +115,14 @@
 
 ### Mindspore
 - [盘古大模型的推理解决方案：增量推理+分布式推理](https://zhuanlan.zhihu.com/p/393812996)
+
+## Star History
+
+
+<a href="https://star-history.com/#BBuf/how-to-learn-deep-learning-framework&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=BBuf/how-to-learn-deep-learning-framework&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=BBuf/how-to-learn-deep-learning-framework&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=BBuf/how-to-learn-deep-learning-framework&type=Date" />
+  </picture>
+</a>
