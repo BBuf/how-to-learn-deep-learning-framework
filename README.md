@@ -118,11 +118,4 @@
 
 ## Star History
 
-
-<a href="https://star-history.com/#BBuf/how-to-learn-deep-learning-framework&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=BBuf/how-to-learn-deep-learning-framework&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=BBuf/how-to-learn-deep-learning-framework&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=BBuf/how-to-learn-deep-learning-framework&type=Date" />
-  </picture>
-</a>
+[![Star History Chart](https://api.star-history.com/svg?repos=BBuf/how-to-learn-deep-learning-framework&type=Date)](https://star-history.com/#BBuf/how-to-learn-deep-learning-framework&Date)
