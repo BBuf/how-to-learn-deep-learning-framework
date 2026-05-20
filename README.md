@@ -1,120 +1,23 @@
-## how-to-learn-deep-learning-framework
+# how-to-learn-deep-learning-framework
 
-> 我也维护了一个cuda学习仓库 https://github.com/BBuf/how-to-learn-deep-learning-framework 以及一个如何学习深度学习编译器（TVM/MLIR/LLVM）的学习仓库 https://github.com/BBuf/tvm_mlir_learn , 有需要的小伙伴可以**点一点star**
+Learning notes for deep learning framework internals.
 
-### PyTorch
+This repository collects resources and notes about PyTorch, OneFlow, TorchScript, distributed training, autograd, memory management, operator development, and framework-level performance optimization.
 
-- [万字综述，核心开发者全面解读PyTorch内部机制](https://mp.weixin.qq.com/s/8J-vsOukt7xwWQFtwnSnWw)
-- [一文读懂 PyTorch 显存管理机制](https://zhuanlan.zhihu.com/p/486360176)
-- [一文搞懂 PyTorch 内部机制](https://zhuanlan.zhihu.com/p/338256656)
-- [PyTorch的hook及其在Grad-CAM中的应用](https://zhuanlan.zhihu.com/p/75894080)
-- [ML System 领域分享第一季](https://zhuanlan.zhihu.com/p/562418633)
-- [ML System 领域分享第二季](https://zhuanlan.zhihu.com/p/567009250)
-- [PyTorch中的contiguous](https://zhuanlan.zhihu.com/p/64551412)
-- [一文理解 PyTorch 中的 SyncBatchNorm](https://zhuanlan.zhihu.com/p/555881100)
-- [一文读懂 Pytorch 中的 Tensor View 机制](https://zhuanlan.zhihu.com/p/463664495)
-- [一文学会 Pytorch 中的 einsum](https://zhuanlan.zhihu.com/p/361209187)
-- [PyTorch 源码解读之 torch.autograd：梯度计算详解](https://zhuanlan.zhihu.com/p/321449610)
-- [PyTorch 源码解读之 BN & SyncBN：BN 与 多卡同步 BN 详解](https://zhuanlan.zhihu.com/p/337732517)
-- [PyTorch 源码解读之 torch.utils.data：解析数据处理全流程](https://zhuanlan.zhihu.com/p/337850513)
-- [PyTorch 源码解读之 nn.Module：核心网络模块接口详解](https://zhuanlan.zhihu.com/p/340453841)
-- [PyTorch 源码解读之 DP & DDP：模型并行和分布式训练解析](https://zhuanlan.zhihu.com/p/343951042)
-- [PyTorch 源码解读之 torch.optim：优化算法接口详解](https://zhuanlan.zhihu.com/p/346205754)
-- [PyTorch 源码解读之 torch.cuda.amp: 自动混合精度详解](https://zhuanlan.zhihu.com/p/348554267)
-- [PyTorch 源码解读之 cpp_extension：揭秘 C++/CUDA 算子实现和调用全流程](https://zhuanlan.zhihu.com/p/348555597)
-- [TorchScript 解读（一）：初识 TorchScript](https://zhuanlan.zhihu.com/p/486914187)
-- [TorchScript 解读（二）：Torch jit tracer 实现解析](https://zhuanlan.zhihu.com/p/489090393)
-- [TorchScript 解读（三）：jit 中的 subgraph rewriter](https://zhuanlan.zhihu.com/p/493955209)
-- [TorchScript 解读（四）：Torch jit 中的别名分析](https://zhuanlan.zhihu.com/p/530242380)
-- [[可能99%人犯的PyTorch错误] set_seed 会破坏随机性，官方 worker_init_fn 无法解决](https://zhuanlan.zhihu.com/p/618639620)
-- [TorchDynamo 初探：Python ByteCode 的动态修改](https://zhuanlan.zhihu.com/p/589115427)
-- [PyTorch 2.0 Dynamo 字节码详解！自顶向下，由浅入深](https://zhuanlan.zhihu.com/p/625136260)
-- [PyTorch显存分配原理——以BERT为例](https://zhuanlan.zhihu.com/p/527143823)
-- [PyTorch在CPU上的一些Performance BKM](https://zhuanlan.zhihu.com/p/79989669)
-- [PyTorch CPU性能优化（一）：Memory Format 和 Channels Last 的性能优化](https://zhuanlan.zhihu.com/p/494620090)
-- [PyTorch CPU性能优化（二）：并行化优化](https://zhuanlan.zhihu.com/p/495278415)
-- [PyTorch CPU性能优化（三）：向量化](https://zhuanlan.zhihu.com/p/499761288)
-- [PyTorch CPU性能优化（四）：BFloat16](https://zhuanlan.zhihu.com/p/499979372)
-- [GNN 在CPU上的性能优化](https://zhuanlan.zhihu.com/p/587390761)
-- [PyTorch 工程实践（一）：使用Valgrind解决内存double free的问题](https://zhuanlan.zhihu.com/p/589912194)
-- [PyTorch显存机制分析](https://zhuanlan.zhihu.com/p/424512257)
-- [pytorch 提速指南（持续更新）](https://zhuanlan.zhihu.com/p/119364172)
-- [PyTorch 2.0 编译基础设施解读——计算图捕获（Graph Capture）](https://zhuanlan.zhihu.com/p/644590863)
-- [pytorch算子的cuda实现——expand,where,softmax](https://zhuanlan.zhihu.com/p/653595064)
-- [csrc autograd的一些基础类解析](https://zhuanlan.zhihu.com/p/654967623)
-- [PyTorch Dynamo 初探2：torch fx 调研和实践](https://zhuanlan.zhihu.com/p/654834182)
-- [一文搞懂 AOTAutograd 原理](https://zhuanlan.zhihu.com/p/632879095)
-- [谁动了我的显存？——深度学习训练过程显存占用分析及优化](https://zhuanlan.zhihu.com/p/641894014)
-- [pytorch2.0目前值得更新吗?](https://www.zhihu.com/question/596483796)
-- [Python字节码反编译器与PyTorch联动，PyTorch 2.0从此不难理解](https://zhuanlan.zhihu.com/p/661443056)
-- [一文打通PyTorch与JAX](https://zhuanlan.zhihu.com/p/660342914)
-- [PyTorch CUDA backend](https://zhuanlan.zhihu.com/p/633169168)
-- [一文读懂PyTorch反向传播计算图及AOTAutograd](https://zhuanlan.zhihu.com/p/669198049)
-- [如何评价pytorch 2.0？](https://www.zhihu.com/question/570221276/answer/3231177605)
-- [PyTorch 2.0 之 Dynamo: eager 模式的救星，加速背后的真相](https://zhuanlan.zhihu.com/p/592357069)
-- [PyTorch显存可视化与Snapshot数据分析](https://zhuanlan.zhihu.com/p/677203832)
+## Focus Areas
 
-### OneFlow
+- PyTorch internals: autograd, CUDA extension, data loading, memory management, AMP, TorchScript, Dynamo, AOTAutograd, and performance tuning.
+- OneFlow internals: execution model, operators, distributed tensors, runtime, VM, and CUDA kernels.
+- ML systems engineering: framework architecture, operator implementation, and training/runtime optimization.
 
-- [成城 OneFlow —— 让每一位算法工程师都有能力训练 GPT](https://zhuanlan.zhihu.com/p/371499074)
-- [大缺弦 Oneflow 基于重计算的动态图显存优化实践](https://mp.weixin.qq.com/s/1oBszAsvrAdPVNKD2SgCFA)
-- [许啸宇 访问者模式（Visitor Pattern）及其实现](https://zhuanlan.zhihu.com/p/586956913)
-- [黄卓彬 在 Oneflow 中开发 Gather Primitive](https://zobinhuang.github.io/sec_learning/Tech_System_And_Network/Oneflow_Gather_Primitive_Development/index.html)
-- [黄卓彬 在 Oneflow 中开发算子的基本流程 ](https://zobinhuang.github.io/sec_learning/Tech_System_And_Network/Oneflow_Operator_Development/index.html)
-- [李响 OneFlow 的 Global Tensor 学习笔记和实习总结](https://zhuanlan.zhihu.com/p/501362228)
-- [李响 OneFlow如何做静态图的算子对齐任务](https://zhuanlan.zhihu.com/p/501397489)
-- [李响 OneFlow 的大模型分片保存和加载](https://zhuanlan.zhihu.com/p/564329063)
-- [周泽楷 OneFlow: 初始化环境](https://www.cnblogs.com/zzk0/p/15212161.html)
-- [周泽楷 OneFlow: Python 端构图](https://www.cnblogs.com/zzk0/p/15213127.html)
-- [周泽楷 OneFlow: 从 Op 到 Job](https://www.cnblogs.com/zzk0/p/15216185.html)
-- [周泽楷 OneFlow: 启动 Session](https://www.cnblogs.com/zzk0/p/15217438.html)
-- [周泽楷 OneFlow: 从 Job 到 Plan](https://www.cnblogs.com/zzk0/p/15222259.html)
-- [周泽楷 OneFlow: 启动 Runtime](https://www.cnblogs.com/zzk0/p/15226851.html)
-- [周泽楷 OneFlow: 计算数据的来源](https://www.cnblogs.com/zzk0/p/15230583.html)
-- [成城 OneFlow是如何做到世界最快深度学习框架的](https://zhuanlan.zhihu.com/p/271740706)
-- [成城 仅此一文让您掌握OneFlow框架的系统设计（上篇）](https://zhuanlan.zhihu.com/p/337851255)
-- [成城 仅此一文让您掌握OneFlow框架的系统设计（中篇）](https://zhuanlan.zhihu.com/p/338699487)
-- [成城 仅此一文让您掌握OneFlow框架的系统设计（下篇）](https://zhuanlan.zhihu.com/p/339208452)
-- [郭冉 如何实现一个高效的Softmax CUDA kernel？——OneFlow 性能优化分享](https://zhuanlan.zhihu.com/p/341059988)
-- [赵露阳 一个Job在OneFlow中的执行过程—上篇](https://zhuanlan.zhihu.com/p/344531540)
-- [赵露阳 一个Job在OneFlow中的执行过程—中篇](https://zhuanlan.zhihu.com/p/355654002)
-- [赵露阳 一个Job在OneFlow中的执行过程—下篇](https://zhuanlan.zhihu.com/p/363689736)
-- [赵露阳 亚线性内存优化—activation checkpointing在oneflow中的实现](https://zhuanlan.zhihu.com/p/373662730)
-- [梁德澎 Oneflow 框架添加算子实践 ---- expand 和 repeat](https://zhuanlan.zhihu.com/p/417488020)
-- [郑泽康 在OneFlow实现Unfold Fold算子](https://zhuanlan.zhihu.com/p/418191393)
-- [郑泽康 在OneFlow实现数据类型自动提升](https://zhuanlan.zhihu.com/p/418191937)
-- [赵露阳 OneFlow中的dataloader原理及实现（对齐pytorch）](https://zhuanlan.zhihu.com/p/419755080)
-- [OneFlow中的错误处理：Maybe](https://zhuanlan.zhihu.com/p/423811115)
-- [郑泽康 如何实现比PyTorch快6倍的Permute/Transpose算子？](https://zhuanlan.zhihu.com/p/425587014)
-- [柳俊丞 如何设置CUDA Kernel中的grid_size和block_size？](https://zhuanlan.zhihu.com/p/442304996)
-- [郭冉 CUDA优化之LayerNorm性能优化实践](https://zhuanlan.zhihu.com/p/443026261)
-- [高效、易用、可拓展我全都要：OneFlow CUDA Elementwise 模板库的设计优化思路](https://zhuanlan.zhihu.com/p/447577193)
-- [BBuf 深度学习框架如何优雅的做算子对齐任务？](https://zhuanlan.zhihu.com/p/458111952)
-- [BBuf 一个Tensor在深度学习框架中的执行过程简单梳理](https://zhuanlan.zhihu.com/p/462562942)
-- [月踏 从Python到C++调用过程分析｜OneFlow学习笔记](https://zhuanlan.zhihu.com/p/497651763)
-- [月踏 Global View的概念和实现｜OneFlow学习笔记](https://zhuanlan.zhihu.com/p/498962713)
-- [月踏 OneFlow学习笔记：从Functor到OpExprInterpreter](https://zhuanlan.zhihu.com/p/463628599)
-- [月踏 OneFlow学习笔记：从OpExprInterpreter到OpKernel](https://zhuanlan.zhihu.com/p/507471077)
-- [月踏 Autograd解析｜OneFlow学习笔记](https://zhuanlan.zhihu.com/p/514080516)
-- [郑泽康 CUDA优化之PReLU性能调优](https://zhuanlan.zhihu.com/p/515926074)
-- [赵露阳【oneflow】算子在深度学习框架中的执行及interpreter](https://zhuanlan.zhihu.com/p/523884650)
-- [许啸宇 一种分布式深度学习编程新范式：Global Tensor](https://zhuanlan.zhihu.com/p/543441584)
-- [郑建华 OneFlow源码解析（1）：算子签名的自动推断](https://zhuanlan.zhihu.com/p/535109926)
-- [郑建华 OneFlow源码解析：Op、Kernel与解释器](https://zhuanlan.zhihu.com/p/548404516)
-- [郑建华 OneFlow源码解析：算子指令在虚拟机中的执行](https://zhuanlan.zhihu.com/p/551766125)
-- [一块GPU训练TB级推荐模型不是梦，OneEmbedding性能一骑绝尘](https://zhuanlan.zhihu.com/p/552943580)
-- [郑建华 OneFlow源码解析：Tensor类型体系与Local Tensor](https://zhuanlan.zhihu.com/p/560424453)
-- [郑建华 OneFlow源码解析：Global Tensor](https://zhuanlan.zhihu.com/p/577716422)
-- [郑建华 OneFlow源码解析：自动微分机制](https://zhuanlan.zhihu.com/p/587951710)
-- [刘耀辉 适配PyTorch FX，OneFlow让量化感知训练更简单](https://zhuanlan.zhihu.com/p/611910798)
-- [郑建华 OneFlow源码解析：Eager模式下的设备管理与并发执行](https://zhuanlan.zhihu.com/p/617870143)
-- [郑建华 OneFlow源码解析：Eager模式下Tensor的存储管理](https://zhuanlan.zhihu.com/p/623680595)
-- [OneFlow —— OneEmbedding PersistentTable 源码阅读](https://zhuanlan.zhihu.com/p/630392764)
-- [OneFlow —— OneEmbedding FullCache源码阅读](https://zhuanlan.zhihu.com/p/633245425)
-- [OneFlow —— OneEmbedding LruCache实现解析](https://zhuanlan.zhihu.com/p/639576432)
+## Related Repositories
 
-### Mindspore
-- [盘古大模型的推理解决方案：增量推理+分布式推理](https://zhuanlan.zhihu.com/p/393812996)
+- CUDA and GPU optimization: https://github.com/BBuf/how-to-optim-algorithm-in-cuda
+- Deep learning compiler notes: https://github.com/BBuf/tvm_mlir_learn
+
+## Status
+
+Legacy learning archive. The repository remains public for reference, with English public-facing documentation going forward.
 
 ## Star History
 
